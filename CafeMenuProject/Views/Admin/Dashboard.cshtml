@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2>Admin Dashboard</h2>
+
+<div class="row">
+    <!-- Toplam Kullanıcı Sayısı -->
+    <div class="col-md-3">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-header">Toplam Kullanıcı</div>
+            <div class="card-body">
+                <h3 class="card-title">@ViewBag.TotalUsers </h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toplam Kategori Sayısı -->
+    <div class="col-md-3">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-header">Toplam Kategori</div>
+            <div class="card-body">
+                <h3 class="card-title">@ViewBag.TotalCategories  </h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Döviz Kuru Widget -->
+    <div class="col-md-3">
+        <div class="card text-white bg-warning mb-3">
+            <div class="card-header">Güncel USD/TRY</div>
+            <div class="card-body">
+                <h3 class="card-title" id="exchangeRate">@(ViewBag.ExchangeRate ?? "Güncellenemedi")</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Kategoriye Göre Ürün Sayısı -->
+<h3>Kategoriye Göre Ürün Sayısı</h3>
+@if (ViewBag.CategoryCounts != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Kategori</th>
+                <th>Ürün Sayısı</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.CategoryCounts)
+            {
+                <tr>
+                    <td>@item.CategoryName</td>
+                    <td>@item.Count</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Kategori verisi bulunamadı.</p>
+}
+
+<!-- Son Eklenen Ürünler -->
+<h3>Son Eklenen Ürünler</h3>
+@if (ViewBag.RecentProducts != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ürün Adı</th>
+                <th>Kategori</th>
+                <th>Fiyat</th>
+                <th>Oluşturulma Tarihi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in ViewBag.RecentProducts)
+            {
+                <tr>
+                    <td>@product.ProductName</td>
+                    <td>@(product.Category?.CategoryName ?? "Bilinmiyor")</td>
+                    <td>@product.PRICE</td>
+                    <td>@product.CreatedDate.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Ürün verisi bulunamadı.</p>
+}
+
+<!-- Döviz Kuru Güncelleme Scripti -->
+<script>
+    $(function () {
+        fetch('/Admin/GetExchangeRate')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("exchangeRate").innerText = data;
+            });
+    }); // 10 saniyede bir güncelle
+</script>

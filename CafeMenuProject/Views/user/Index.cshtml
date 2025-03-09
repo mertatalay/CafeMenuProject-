@@ -1,0 +1,37 @@
+﻿@model List<CafeMenuProject.Models.User>
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<h2>Kullanıcı Listesi</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Kullanıcı Adı</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserId</td>
+                <td>@user.Name</td>
+                <td>@user.Surname</td>
+                <td>@user.Username</td>
+                <td>
+                    <a asp-controller="User" asp-action="Details" asp-route-id="@user.UserId" class="btn btn-primary">Detay</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="User" asp-action="Create" class="btn btn-success">Yeni Kullanıcı Ekle</a>

@@ -1,0 +1,20 @@
+﻿@model CafeMenuProject.Models.Category
+
+<h2>Kategori Detayları</h2>
+
+<table class="table">
+    <tr>
+        <th>ID:</th>
+        <td>@Model.CategoryId</td>
+    </tr>
+    <tr>
+        <th>Kategori Adı:</th>
+        <td>@Model.CategoryName</td>
+    </tr>
+    <tr>
+        <th>Oluşturulma Tarihi:</th>
+        <td>@Model.CreatedDate.ToString()</td>
+    </tr>
+</table>
+
+<a asp-controller="Category" asp-action="Index" class="btn btn-secondary">Geri</a>

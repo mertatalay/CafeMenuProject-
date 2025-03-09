@@ -1,0 +1,38 @@
+﻿@model List<CafeMenuProject.Models.Category>
+
+<h2>Kategori Listesi</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Kategori Adı</th>
+            <th>Oluşturulma Tarihi</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.CategoryId</td>
+                <td>@category.CategoryName</td>
+                <td>@category.CreatedDate.ToString()</td>
+                <td>
+                    <a asp-controller="Category" asp-action="Details" asp-route-id="@category.CategoryId" class="btn btn-primary">Detay</a>
+                    <a href="#" onclick="confirmDelete(@category.CategoryId)" class="btn btn-danger">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Category" asp-action="Create" class="btn btn-success">Yeni Kategori Ekle</a>
+<script>
+    function confirmDelete(categoryId) {
+        var result = confirm("Bu kategoriye ait bütün ürünler de silinecektir. Onaylıyor musunuz?");
+        if (result) {
+            window.location.href = '/Category/Delete/' + categoryId;
+        }
+    }
+</script>

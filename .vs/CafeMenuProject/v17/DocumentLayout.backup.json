@@ -1,0 +1,332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\controllers\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\controllers\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\helpers\\currencyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\helpers\\currencyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|c:\\users\\oyave\\source\\repos\\cafemenuproject\\cafemenuproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{836CFE2F-8EFC-4CE8-B102-D2719821A8BC}|CafeMenuProject\\CafeMenuProject.csproj|solutionrelative:cafemenuproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Program.cs",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Program.cs",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Program.cs",
+              "RelativeToolTip": "CafeMenuProject\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:13:20.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "CafeMenuProject\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:32:16.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\user\\Index.cshtml",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Views\\user\\Index.cshtml",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\user\\Index.cshtml",
+              "RelativeToolTip": "CafeMenuProject\\Views\\user\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T19:35:32.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Models\\User.cs",
+              "RelativeToolTip": "CafeMenuProject\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T19:43:59.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Helpers\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Helpers\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Helpers\\PasswordHelper.cs",
+              "RelativeToolTip": "CafeMenuProject\\Helpers\\PasswordHelper.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T17:57:19.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\user\\Create.cshtml",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Views\\user\\Create.cshtml",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\user\\Create.cshtml",
+              "RelativeToolTip": "CafeMenuProject\\Views\\user\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:16:26.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CafeMenuProject\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwv1gAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:01:53.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "CafeMenuProject\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAiwD0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:03:10.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CafeMenuProject\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:44:24.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "CafeMenuProject\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:33:14.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\user\\Details.cshtml",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Views\\user\\Details.cshtml",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\user\\Details.cshtml",
+              "RelativeToolTip": "CafeMenuProject\\Views\\user\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:16:52.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CafeMenuProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:17:40.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CurrencyHelper.cs",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Helpers\\CurrencyHelper.cs",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Helpers\\CurrencyHelper.cs",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Helpers\\CurrencyHelper.cs",
+              "RelativeToolTip": "CafeMenuProject\\Helpers\\CurrencyHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T17:57:55.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Controllers\\Admin.cs",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Controllers\\Admin.cs",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Controllers\\Admin.cs",
+              "RelativeToolTip": "CafeMenuProject\\Controllers\\Admin.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:38:39.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "CafeMenuProject\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAmwGgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:40:21.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Models\\Product.cs",
+              "RelativeToolTip": "CafeMenuProject\\Models\\Product.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:44:00.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Views\\Category\\Details.cshtml",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "CafeMenuProject\\Views\\Category\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T18:33:42.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CafeMenuProject\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\Models\\Category.cs",
+              "RelativeToolTip": "CafeMenuProject\\Models\\Category.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:09:25.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\appsettings.json",
+              "RelativeDocumentMoniker": "CafeMenuProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\oyave\\source\\repos\\CafeMenuProject\\CafeMenuProject\\appsettings.json",
+              "RelativeToolTip": "CafeMenuProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-07T17:51:30.077Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

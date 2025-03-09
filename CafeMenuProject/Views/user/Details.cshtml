@@ -1,0 +1,24 @@
+﻿@model CafeMenuProject.Models.User
+
+<h2>Kullanıcı Detayları</h2>
+
+<table class="table">
+    <tr>
+        <th>ID:</th>
+        <td>@Model.UserId</td>
+    </tr>
+    <tr>
+        <th>Ad:</th>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <th>Soyad:</th>
+        <td>@Model.Surname</td>
+    </tr>
+    <tr>
+        <th>Kullanıcı Adı:</th>
+        <td>@Model.Username</td>
+    </tr>
+</table>
+
+<a asp-controller="User" asp-action="Index" class="btn btn-secondary">Geri</a>
