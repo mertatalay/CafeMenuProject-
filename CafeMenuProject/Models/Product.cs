@@ -9,22 +9,23 @@ namespace CafeMenuProject.Models
         [Key]
         public int ProductId { get; set; }
 
-        [StringLength(200)]
-        public string? ProductName { get; set; }
-
-        [ForeignKey("Category")]
-        public int CategoryId { get; set; }
-        public virtual Category Category { get; set; }
+        [Required]
+        [StringLength(100)]
+        public string ProductName { get; set; }
 
         [Required]
-        public decimal? PRICE { get; set; }
+        [Range(0.01, 10000)]
+        public decimal PRICE { get; set; }
 
-        public string? ImagePath { get; set; } // Ürün resmi yolu
+        [Required]
+        public int CategoryId { get; set; }
 
-        public bool? IsDeleted { get; set; } = false;
+      
 
-        public DateTime? CreatedDate { get; set; } = DateTime.Now;
+        [ForeignKey("CategoryId")]
+        public virtual Category Category { get; set; }
 
-        public int? CreatorUserId { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public bool IsDeleted { get; set; } = false;
     }
 }

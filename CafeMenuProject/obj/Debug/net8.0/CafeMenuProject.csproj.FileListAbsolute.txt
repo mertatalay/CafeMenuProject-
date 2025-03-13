@@ -175,3 +175,4 @@ C:\Users\oyave\source\repos\CafeMenuProject\CafeMenuProject\obj\Debug\net8.0\Caf
 C:\Users\oyave\source\repos\CafeMenuProject\CafeMenuProject\obj\Debug\net8.0\CafeMenuProject.genruntimeconfig.cache
 C:\Users\oyave\source\repos\CafeMenuProject\CafeMenuProject\obj\Debug\net8.0\ref\CafeMenuProject.dll
 C:\Users\oyave\source\repos\CafeMenuProject\CafeMenuProject\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\oyave\source\repos\CafeMenuProject\CafeMenuProject\obj\Debug\net8.0\CafeMenuProject.sourcelink.json

@@ -5,7 +5,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // 🔹 Veritabanı bağlantısını ekleyin
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+    .EnableSensitiveDataLogging()); // Veritabanı loglarını açar);
+
+
 
 // 🔹 MVC desteğini ekleyin
 builder.Services.AddControllersWithViews();

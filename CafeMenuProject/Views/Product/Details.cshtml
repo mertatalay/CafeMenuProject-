@@ -1,0 +1,24 @@
+﻿@model CafeMenuProject.Models.Product
+
+@{
+    ViewData["Title"] = "Ürün Detayı";
+}
+
+<h2>Ürün Detayı</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">@Model.ProductName</h4>
+        <p class="card-text"><strong>Fiyat:</strong> @Model.PRICE.ToString("C")</p>
+        <p class="card-text"><strong>Kategori:</strong> @Model.Category?.CategoryName ?? "Bilinmiyor"</p>
+       
+    </div>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.ProductId" class="btn btn-warning mt-3">Düzenle</a>
+<a asp-action="Index" class="btn btn-secondary mt-3">Geri Dön</a>
